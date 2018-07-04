@@ -1,0 +1,44 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Minimalist node server with express and nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesansley/simple-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "express",
+    "nodemon"
+  ],
+  "author": "Les Ansley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lesansley/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/lesansley/simple-node-server#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "morgan": "^1.9.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodemon": "^1.17.5"
+  }
+}
